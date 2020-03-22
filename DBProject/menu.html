@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width"> 
+		<title>Menu</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+
+	
+	</head>
+<body>
+
+<style>
+    body{
+    font-family: 'Sarabun', sans-serif;
+    text-align:center;
+    }
+    h1{
+        color:#FF8C00;
+        text-align:left;
+
+    }
+    
+
+    .btn{
+    background:#FF8C00;
+    color:white;
+}
+    img{
+        max-width: 100%;
+  height: auto;
+}
+
+    .order {
+    border: 1px solid black;
+}
+
+
+    .icon{
+    width: 20%;
+    height:30%;
+
+}
+
+
+
+</style>
+
+<br>
+<div class="container">
+    
+ <h1>MENU</h1><br>
+         
+                <div class="col">
+                    <form class="form-inline " method="GET" action="">
+                    <div class="form-group col">
+                    <label for="inputSearch">ค้นหา :</label>
+                    <input type="text" class="form-control col-sm-6" id="inputSearch" 
+                    name="inputSearch" placeholder="Search"> 
+
+                    <div class="btn fa fa-search btn-lg"></div>
+                </div>
+<br><br><br>
+
+
+                <div class="col">
+                  <table class="table-light">
+                    <tr>
+                    
+                    <th><button type="button" class="btn btn-lg btn-block">ทอด</button></th>
+                    <th><button type="button" class="btn btn-lg btn-block">ผัด</button></th>
+                    <th><button type="button" class="btn btn-lg btn-block">ซุป</button></th>
+                    <th><button type="button" class="btn btn-lg btn-block">ยำ</button></th>
+                    <th><button type="button" class="btn btn-lg btn-block">เครื่องดื่ม</button></th>
+                    <th><button type="button" class="btn btn-lg btn-block">ไอศครีม</button></th>
+                   
+                    </tr>
+              
+     </table> </form>
+</div>               
+</div>
+
+
+
+<br><br>
+
+<div class="container">
+<div class="row">
+    <div class="col-sm-8 "> 
+              
+
+         <table class="table table-bordered">
+           <thead>
+    <tr>
+        <th>รายการอาหาร</th>
+        <th>ชื่อ</th>
+        <th>ราคา</th>
+        </tr>
+
+    <tr>
+        <td><img src="static/images/IMG_4753.jpg" />
+        <button type="button" class="btn btn-block">เลือก</button></td>
+        <td>แกงแผ็ดเป็ดย่าง</td>
+        <td>129</td>     
+       
+ </tr>
+ </thead>
+ </table>
+
+
+         <table class="table table-bordered">
+           <thead>
+    <tr>
+        <th>รายการอาหาร</th>
+        <th>ชื่อ</th>
+        <th>ราคา</th>
+        </tr>
+
+    <tr>
+        <td><img src="static/images/IMG_4770.jpg" />
+        <button type="button" class="btn btn-block">เลือก</button></td>
+        <td>ปลาทอดฟู</td>
+        <td>129</td>     
+       
+ </tr>
+ </thead>
+ </table>
+
+
+                
+        </div>
+        
+        
+        
+        
+        <div class="col-sm-4 "> 
+    <table class='order table-light'>
+    <tr>
+            <th>โต๊ะ</th>  
+            <th><input type=number></th>
+             <th>จำนวนคน</th>  
+            <th><div class='icon' ><img src="static/icon/man.png" /></div></th>
+            <th><input type=number></th>
+            
+    </tr>
+  </table>
+
+</div>
+
+
+      
+
+
+  </div>
+
+
+
+</body>
+
+</html>
