@@ -39,12 +39,11 @@
 }
 
 
-    .icon{
-    width: 20%;
-    height:30%;
+.number{
+    width: 50%;
+    height:50%;
 
 }
-
 
 
 </style>
@@ -62,6 +61,8 @@
                     name="inputSearch" placeholder="Search"> 
 
                     <div class="btn fa fa-search btn-lg"></div>
+
+
                 </div>
 <br><br><br>
 
@@ -139,13 +140,33 @@
         <div class="col-sm-4 "> 
     <table class='order table-light'>
     <tr>
-            <th>โต๊ะ</th>  
-            <th><input type=number></th>
-             <th>จำนวนคน</th>  
-            <th><div class='icon' ><img src="static/icon/man.png" /></div></th>
-            <th><input type=number></th>
+            <th><label>โต๊ะ</label> <input type=number class="number" placeholder="1"></th>
+            <th><img src="static/icon/man.png" style="height:35px;width:50px;"/></th>
+             <th><input type=number class="number"
+             placeholder="1" ></th>
+            <th><button type="button" class="btn" style="height:40px;width:100px;">ส่งรายการ</button></th>
+            
+</tr><tr>
+            <td><input type="image"  class="button-add" src="static/icon/coupon.png" style="height:60px;width:50px;"/></td>
+            <td style="background:#DCDCDC; width: 50px; height: 30px;   border-radius: 20%" >2</td>
+            <td style="background:#DCDCDC;   border-radius: 20%">300</td>
+            <td><input type="image"  class="button-add" src="static/icon/trash.png" style="height:40px;width:40px;"/></td>
             
     </tr>
+<tr>
+            <td>ส่วนลด</td>
+            <td></td>
+            <td></td>
+            <td>Delete</td>
+            
+    </tr>
+<tr>
+
+            <td><button class="btn fa fa-trash"></button></td> 
+            <td></td>
+            <td></td>   
+            <td></td> 
+            </tr>
   </table>
 
 </div>
