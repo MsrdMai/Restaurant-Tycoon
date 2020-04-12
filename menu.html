@@ -109,32 +109,29 @@
                     <input type="text" class="form-control col-sm-8 lg-5" id="inputSearch" 
                     name="inputSearch" placeholder="Search"  > 
          
-                    <div class="btn fa fa-search col-sm-3 col-lg-1 ">
                     
+                     <select class="custom-select col" id="inlineFormCustomSelect">
+                            <option selected>--เลือกประเภท--</option>
+                            <option value="1">ทอด</option>
+                            <option value="2">ต้มยำ</option>
+                            <option value="3">ซุป</option>
+                            <option value="4">ย่าง</option>
+                            <option value="5">ยำ</option>
+                            <option value="6">ของหวาน</option>
+                            <option value="6">เครื่องดื่ม</option>
+                     </select>
                     
-                    </div>
+                    <div class="btn fa fa-search col-sm-3 col-lg-1 "></div>
 
  </div>
               
-<br><br><br>
 
-<div class="col">
-                
-                  <table class="table-light col">
-                    <tr>
-                    
-                    <th><button type="button" class="btn btn-lg btn-block">ทอด</button></th>
-                    <th><button type="button" class="btn btn-lg btn-block">ผัด</button></th>
-                    <th><button type="button" class="btn btn-lg btn-block">ซุป</button></th>
-                    <th><button type="button" class="btn btn-lg btn-block">สตู</button></th>
-                    <th><button type="button" class="btn btn-lg btn-block">ปลา</button></th>
-                    <th><button type="button" class="btn btn-lg btn-block">ยำ</button></th>
-                    <th><button type="button" class="btn btn-lg btn-block">เครื่องดื่ม</button></th>
-                    <th><button type="button" class="btn btn-lg btn-block">ไอศครีม</button></th>
+
+       
                    
-                    </tr>
+                    
               
-     </table> </form>
+    </form>
 </div>               
 </div>
  
@@ -149,32 +146,26 @@
 
          <table class="table table-bordered">
            <thead>
-    <tr>
-       
-        <th colspan="3" >รายการอาหาร</th>
-               
-
-        </tr>
-
+                <tr>
+                <th>รายการอาหาร</th>
+                </tr> 
     <tr>
 
         <td><img src="static/images/IMG_4757.jpg" />
         <button type="button" class="btn btn-block">เมี่ยงมะม่วง</button></td>
-
-
-    <td><img src="static/images/IMG_4753.jpg" />
-        <button type="button" class="btn btn-block">แกงแผ็ดเป็ดย่าง</button></td>    
-
-
-    <td><img src="static/images/IMG_4770.jpg" />
-        <button type="button" class="btn btn-block">ปลาทอดฟู</button></td>  
+    
+  </tr>      
  <tr>
-
-
-
- 
-
+        <td><img src="static/images/IMG_4770.jpg" />
+        <button type="button" class="btn btn-block">ปลาทอดฟู</button></td>  
  </tr>
+
+        <td><img src="static/images/IMG_4753.jpg" />
+                <button type="button" class="btn btn-block">แกงแผ็ดเป็ดย่าง</button></td>   
+ <tr>
+         
+ </tr>
+ 
  </thead>
  </table>
         </div>
@@ -187,7 +178,8 @@
     <table class='table-light' >
 
        <tr >      
-            
+            <form class="form-inline " method="GET" action="">
+            <div class="form-group">
             <th colspan="6" style=" color:#FF8C00;">ORDER BILL<hr></th>
 
  
@@ -202,13 +194,13 @@
                 <input type=number class="number" min="1" max="10" value="1"  >
 
             </th>
-            <th><img src="static/icon/man.png" style="height:40px;width:50px;"/></th>
+            <th><img src="static/icon/man.png" style="height:40px;width:50px;"/></th><th></th>
             <th>
             
                 <input type=number class="number" min="1" max="10" value="1" >
              </th>
-            <th></th> 
-            <th><button type="button" class="btn" style="width:100px;hight:auto;">ส่งรายการ</button></th>
+            <th>People</th> 
+            
            
             
     </tr><tr>
@@ -304,10 +296,10 @@
     <span class="onoffswitch-switch"></span>
    </div>
 
-    <button type="button" class="btn btn-block">CHARGE ฿528.00</button>
+    <button type="button" class="btn btn-block">ส่งรายการ</button>
 <br><hr>
-
-
+</div>
+</form>
 </div>
   
 
