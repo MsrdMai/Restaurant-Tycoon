@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-  <title>Sign In | Builderall</title>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="form-container">
-  
-  <div class="form-bg">
-    <h1>LOGIN</h1>
-  </div>
-<!-- FORM INFO -->
-  <div class="form-info-container">
-    <form action="" class="form-info">
-      <div class="container">
-        <label for="Username">Username</label>
-        <input id="Username" name="nome" type="text" placeholder="Username">
-      </div>   
-      <div class="container">
-        <label for="password">Password</label>
-        <input id="password" name="password" type="password" placeholder="Password">
-      </div>
-      <div class="container-checkbox">
-        <input id="checkbox" type="checkbox" name="checkbox">
-        <label for="checkbox">Are you a Virtual Assistant?</label>
-      </div>
-      <div class="container-button">
-        <button id="submit" name="submit_btn" class="btn-3">SIGN IN</button>
-      </div>
-    </form>
-  </div>
-
-</div>
+	<img class="wave" src="img/shop.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/logo.png">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="img/eat.png">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+           	<input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>
