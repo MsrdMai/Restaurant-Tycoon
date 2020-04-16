@@ -305,7 +305,7 @@
     </div>
     <div id="menu2" class="container tab-pane fade"><br>
       <h3>คลังสินค้า</h3><br>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      
     </div>
     <div id="menu3" class="container tab-pane fade"><br>
         <h3>จอง</h3>
@@ -323,15 +323,15 @@
 </div>
 
 
-
-<div class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
+<!--form booking-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
           <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <h4 class="modal-title">สร้างรายการจองโต๊ะ</h4>
+            <h4 class="modal-title">สร้างรายการจองโต๊ะ</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> 
           </div>
           <div class="modal-body">
               <div class="row">
@@ -343,25 +343,31 @@
               <div class="row">
                 <div class="col-xs-12">
                     <label class="col-xs-4" for="name">ชื่อผู้จอง</label>
+                    <!--name = cus_name-->
                     <input type="text" name="name" id="name" />
                 </div>
               </div>
               <div class="row">
                 <div class="col-xs-12">
                     <label class="col-xs-4" for="phone">เบอร์โทรศัพท์</label>
+                    <!--phone = cus_phone-->
                     <input type="text" name="phone" id="phone" />
                 </div>
               </div>
               <div class="row">
                 <div class="col-xs-12">
-                    <label class="col-xs-4" for="starts-at">Starts at</label>
-                    <input type="text" name="starts_at" id="starts-at" />
+                    <label class="col-xs-4" for="starts-at">วัน-เวลา</label>
+                    <!--start-at = datetime-->
+                </div>
+                <div class="col-xs-12">
+                  <input type="text" name="starts_at" id="starts-at" />
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-xs-12">
                     <label class="col-xs-4" for="amount">จำนวน</label>
+                    <!--amount = cus_amount-->
                     <input type="text" name="amount" id="amount" />
                     <label class="col-xs-4" for="amount">คน</label>
                 </div>
@@ -369,6 +375,7 @@
               <div class="row">
                 <div class="col-xs-12">
                     <label class="col-xs-4" for="table">โต๊ะ</label>
+                    <!--table = table_name-->
                     <select class="selectpicker" data-live-search="true">
                       <optgroup label="ห้อง">
                         <option data-tokens="ห้องชบา">ห้องชบา</option>
