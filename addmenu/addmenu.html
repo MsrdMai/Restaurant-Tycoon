@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+
+  <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/i18n/defaults-*.min.js"></script>
+  
+  <!--Toggle-->
+  <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JNKKKK/MoreToggles.css@0.2.1/output/moretoggles.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  
+</head>
+<body>
+<div class="container">
+  <div class="main">
+    <h1>MENU</h1>
+    <!-- Another variation with a button -->
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="ค้นหาอาหารได้ที่นี่">
+        <div class="input-group-append">
+            <button class="btn btn-warning" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>      
+  </div>
+  <div class="row container justify-content-center">
+    <div class="col-8">
+          <!-- Nav tabs -->
+          <ul class="nav md-pills nav-fill pills-peach-gradient pills-rounded" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#menu1">
+                ทอด
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu2">
+                ต้มยำ
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu3">
+                ซุป
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#menu4">
+                    ย่าง
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#menu5">
+                    ยำ
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#menu6">
+                    ของหวาน
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#menu7">
+                    
+                    เครื่องดื่ม
+                </a>
+              </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="menu1" class="container tab-pane active"><br>
+              <h3>ทอด</h3><br>
+              <!-- รายการอาหาร -->
+              <div class="row">
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                          <p class="card-text">฿ 350.00</p>
+                        </div>
+                        <div class="col-*-* ">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">ปลาทอดฟู</h5>
+                          <p class="card-text">฿ 150.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4753.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">แกงแผ็ดเป็ดย่าง</h5>
+                          <p class="card-text">฿ 270.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                          <p class="card-text">฿ 350.00</p>
+                        </div>
+                        <div class="col-*-* ">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">ปลาทอดฟู</h5>
+                          <p class="card-text">฿ 150.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4753.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">แกงแผ็ดเป็ดย่าง</h5>
+                          <p class="card-text">฿ 270.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+              </div><!-- จบ รายการอาหาร -->
+
+          </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+              <h3>ต้มยำ</h3><br>
+              <!-- รายการอาหาร -->
+              <div class="row">
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                          <p class="card-text">฿ 350.00</p>
+                        </div>
+                        <div class="col-*-* ">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">ปลาทอดฟู</h5>
+                          <p class="card-text">฿ 150.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4753.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">แกงแผ็ดเป็ดย่าง</h5>
+                          <p class="card-text">฿ 270.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                          <p class="card-text">฿ 350.00</p>
+                        </div>
+                        <div class="col-*-* ">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">ปลาทอดฟู</h5>
+                          <p class="card-text">฿ 150.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4753.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">แกงแผ็ดเป็ดย่าง</h5>
+                          <p class="card-text">฿ 270.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">ปลาทอดฟู</h5>
+                          <p class="card-text">฿ 150.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4753.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">แกงแผ็ดเป็ดย่าง</h5>
+                          <p class="card-text">฿ 270.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+              </div><!-- จบ รายการอาหาร -->
+            </div>
+            <div id="menu3" class="container tab-pane fade"><br>
+              <h3>ซุป</h3><br>
+              <!-- รายการอาหาร -->
+              <div class="row">
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                          <p class="card-text">฿ 350.00</p>
+                        </div>
+                        <div class="col-*-* ">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">ปลาทอดฟู</h5>
+                          <p class="card-text">฿ 150.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+
+                <div class="col-xs-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/IMG_4753.jpg" alt="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">แกงแผ็ดเป็ดย่าง</h5>
+                          <p class="card-text">฿ 270.00</p>
+                        </div>
+                        <div class="col-*-*">
+                          <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- card -->
+                </div>
+              </div><!-- จบ รายการอาหาร -->
+
+            </div>
+            <div id="menu4" class="container tab-pane fade"><br>
+                <h3>ย่าง</h3>
+                <!-- รายการอาหาร -->
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-8">
+                            <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                            <p class="card-text">฿ 350.00</p>
+                          </div>
+                          <div class="col-*-* ">
+                            <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- card -->
+                  </div>
+  
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-8">
+                            <h5 class="card-title">ปลาทอดฟู</h5>
+                            <p class="card-text">฿ 150.00</p>
+                          </div>
+                          <div class="col-*-*">
+                            <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- card -->
+                  </div>
+                </div><!-- จบ รายการอาหาร -->
+              </div>
+              <div id="menu5" class="container tab-pane fade"><br>
+                <h3>ยำ</h3><br>
+                <!-- รายการอาหาร -->
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-8">
+                            <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                            <p class="card-text">฿ 350.00</p>
+                          </div>
+                          <div class="col-*-* ">
+                            <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- card -->
+                  </div>
+  
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-8">
+                            <h5 class="card-title">ปลาทอดฟู</h5>
+                            <p class="card-text">฿ 150.00</p>
+                          </div>
+                          <div class="col-*-*">
+                            <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- card -->
+                  </div>
+                </div><!-- จบ รายการอาหาร -->
+              </div>
+              <div id="menu6" class="container tab-pane fade"><br>
+                <h3>ของหวาน</h3><br>
+                <!-- รายการอาหาร -->
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="card-img-top" src="images/IMG_4757.jpg" alt="">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-8">
+                            <h5 class="card-title">เมี่ยงมะม่วง</h5>
+                            <p class="card-text">฿ 350.00</p>
+                          </div>
+                          <div class="col-*-* ">
+                            <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- card -->
+                  </div>
+  
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-8">
+                            <h5 class="card-title">ปลาทอดฟู</h5>
+                            <p class="card-text">฿ 150.00</p>
+                          </div>
+                          <div class="col-*-*">
+                            <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- card -->
+                  </div>
+                </div><!-- จบ รายการอาหาร -->
+              </div>
+              <div id="menu7" class="container tab-pane fade"><br>
+                <h3>เครื่องดื่ม</h3><br>
+                <!-- รายการอาหาร -->
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="card-img-top" src="images/IMG_4770.jpg" alt="">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-8">
+                            <h5 class="card-title">ปลาทอดฟู</h5>
+                            <p class="card-text">฿ 150.00</p>
+                          </div>
+                          <div class="col-*-*">
+                            <button type="button" class="btn btn-outline-warning text-right">Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- card -->
+                  </div>
+                </div><!-- จบ รายการอาหาร -->
+              </div>
+          </div>
+    </div>
+    <!-- cart -->
+    <div class="col-xs-4 border border-top-0 border-right-0 border-bottom-0">
+      <form action="" method="post">
+          <h3><center>รายการอาหารที่สั่ง</center></h3>
+          <pre></pre>
+          <div class="col-xs-2">
+            <button class="btn btn-md btn-block btn-outline-warning mr-2 ml-2 mb-3" type="submit">
+              <i class="fas fa-receipt mr-2"></i>ส่งรายการ
+            </button>
+          </div>
+        <!--row1-->
+        <div class="row  container justify-content-center">
+          
+          <div class="col-8">
+            <label><h5>โต๊ะ</h5></label>
+            <select class="selectpicker" data-live-search="true" data-width="140px">
+              <optgroup label="ห้อง">
+                <option data-tokens="ห้องชบา">ห้องชบา</option>
+                <option data-tokens="ห้องชวนชม">ห้องชวนชม</option>
+                <option data-tokens="ห้องทานตะวัน">ห้องทานตะวัน</option>
+                <option data-tokens="ห้องบานชื่น">ห้องบานชื่น</option>
+                <option data-tokens="ห้องพวงชมพู">ห้องพวงชมพู</option>
+              </optgroup>
+              <optgroup label="โต๊ะ">
+                <option data-tokens="01">01</option>
+                <option data-tokens="02">02</option>
+                <option data-tokens="03">03</option>
+                <option data-tokens="04">04</option>
+                <option data-tokens="05">05</option>
+                <option data-tokens="06">06</option>
+                <option data-tokens="07">07</option>
+                <option data-tokens="08">08</option>
+                <option data-tokens="09">09</option>
+                <option data-tokens="10">10</option>
+                <option data-tokens="11">11</option>
+                <option data-tokens="12">12</option>
+                <option data-tokens="13">13</option>
+                <option data-tokens="14">14</option>
+                <option data-tokens="15">15</option>
+                <option data-tokens="16">16</option>
+                <option data-tokens="17">17</option>
+                <option data-tokens="18">18</option>
+                <option data-tokens="19">19</option>
+                <option data-tokens="20">20</option>
+                <option data-tokens="21">21</option>
+                <option data-tokens="22">22</option>
+                <option data-tokens="23">23</option>
+                <option data-tokens="24">24</option>
+                <option data-tokens="25">25</option>
+                <option data-tokens="26">26</option>
+                <option data-tokens="27">27</option>
+                <option data-tokens="28">28</option>
+                <option data-tokens="29">29</option>
+                <option data-tokens="30">30</option>
+              </optgroup>
+            </select>
+          </div>
+          
+          <div class="col-xs-2 qty">
+            <i class="fas fa-male fa-2x"></i>
+            <input type="number" class="count form-control" name="qty" value="1" width="2">
+          </div>
+        </div><!--row1-->
+        
+        <!--row2-->
+        <div class="container">
+          <div class="btn-group" role="group" aria-label="Button group">
+            <div class="col-xs-2 mr-2">
+              <button class="btn btn-block btn-outline-warning" type="submit">
+                <i class="fas fa-percent"></i><br>ส่วนลด
+              </button>
+            </div>
+            <div class="col-xs-8 fix">
+              <div class="row">
+                <div class="col-*-*" style="padding-right: 5px;">
+                  <center><b><h7>จำนวน</h7></b></center>
+                  <center><b><h5>2</h5></b></center>
+                </div>
+                <div class="col-*-* border border-top-0 border-right-0 border-bottom-0" style="padding-left: 5px;">
+                  <center><b><h7>ราคา</h7></b></center>
+                  <center><b><h5>฿1,250.00</h5></b></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-2 ml-2">
+              <button class="btn  btn-block btn-outline-warning" type="submit">
+                <i class="fas fa-trash-alt"></i><br>ลบบิล
+              </button>
+            </div>
+          </div>
+        </div><!--row2-->
+
+        <table class="container ml-2">
+          <thead>
+            <tr>
+              <th scope="col"><center>รายการ</center></th>
+              <th scope="col"><center>จำนวน</center></th>
+              <th scope="col"><center>ราคา</center></th>
+              <th scope="col">&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+      
+            <!-- shopping cart contents -->
+            <tr class="productitm">
+      <!-- รายการอาหาร -->
+              <!--col 1-->
+              <td>แกงแผ็ดเป็ดย่าง</td>
+              <!--col 2-->
+              <td class="qty mt-5">
+                  <span class="minus bg-warning">-</span>
+                  <input type="number" class="form-control count" name="qty" value="1">
+                  <span class="plus bg-warning">+</span>
+              </td>
+              <!--col 3-->
+              <td>฿279.00</td>
+              <!--col 4-->
+              <td><button class="btn"><i class="fa fa-times  text-danger"></i></button></td>
+            </tr>
+      <!-- รายการอาหาร -->
+              <!--col 1-->
+              <td>ปลาทอดฟู</td>
+              <!--col 2-->
+              <td class="qty mt-5">
+                  <span class="minus bg-warning">-</span>
+                  <input type="number" class="form-control count" name="qty" value="1">
+                  <span class="plus bg-warning">+</span>
+              </td>
+              <!--col 3-->
+              <td>฿79.00</td>
+              <!--col 4-->
+              <td><button class="btn"><i class="fa fa-times text-danger"></i></button></td>
+            </tr>
+      <!-- รายการอาหาร -->
+              <!--col 1-->
+              <td>เมี่ยงมะม่วง</td>
+              <!--col 2-->
+              <td class="qty mt-5">
+                  <span class="minus bg-warning">-</span>
+                  <input type="number" class="form-control count" name="qty" value="1">
+                  <span class="plus bg-warning">+</span>
+              </td>
+              <!--col 3-->
+              <td>฿350.00</td>
+              <!--col 4-->
+              <td><button class="btn"><i class="fa fa-times text-danger"></i></button></td>
+            </tr>
+          </tbody>
+        </table>
+          <hr>
+          <div class="row">
+            <div class="col-5">
+
+            </div>
+            <div class="col-7">
+              <table>
+                <!-- tax + subtotal -->
+                <tr class="discount">
+                    <th class="light">Bill hiscount</td>
+                    <td colspan="2" class="light"></td>
+                    <td>฿35.00</td>
+
+                </tr>
+                <tr class="vat">
+                  <th class="light">VAT</th>
+                  <td colspan="2" class="light"></td>
+                  <td>฿35.00</td>
+                </tr>
+                <tr class="service">
+                  <th class="light">Service Charge</th>
+                  <td colspan="2" class="light"></td>
+                  <td>฿5.00</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+            
+          <hr>
+            <!-- checkout btn -->
+            <div class="container">
+              
+                <div class="switcher">
+                  <input type="radio" name="balance" value="eat_in" id="eat_in" class="switcher__input switcher__input--eat_in" checked="">
+                  <label for="eat_in" class="switcher__label"><b>EAT IN</b></label>
+                  
+                  <input type="radio" name="balance" value="take_away" id="take_away" class="switcher__input switcher__input--take_away">
+                  <label for="take_away" class="switcher__label"><b>TAKE AWAY</b></label>
+                  
+                  <span class="switcher__toggle"></span>
+                </div>
+            </div>
+        <!--summit-->
+        <button type="button" class="btn btn-lg gradient-button gradient-button-1 mt-2"><b style="color: #FC6362;">ชำระเงิน </b>฿10,430.00</button>  
+
+    </div>
+
+
+      </form>
+        
+    </div><!--cart-->
+  </div>
+
+</div>
+
+</body>
+</html>
