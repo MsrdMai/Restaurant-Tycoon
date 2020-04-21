@@ -16,4 +16,6 @@ $(document).ready(function() {
     });
 });
 
-$('#detailModal').modal(options)
+$('#detailModal').modal(options);
+
+$('#cashModal').modal(options);
