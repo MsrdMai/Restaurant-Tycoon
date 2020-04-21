@@ -15,3 +15,5 @@ $(document).ready(function() {
         return false;
     });
 });
+
+$('#detailModal').modal(options)
